@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-pushd ./src/GildedRoseCore.Console/
-
-dotnet run
-
-popd
