@@ -7,8 +7,8 @@
 -debug:portable
 -nostdlib
 -nologo
-"c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCore\src\GildedRoseCore.Console\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCore\src\GildedRoseCore.Console\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.dll"
+"c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.dll"
 -r:"C:\Users\hyeung\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\hyeung\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll"
 -r:"C:\Users\hyeung\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
@@ -82,4 +82,4 @@
 -r:"C:\Users\hyeung\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\hyeung\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\hyeung\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCore\src\GildedRoseCore.Console\Program.cs"
+"c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console\Program.cs"

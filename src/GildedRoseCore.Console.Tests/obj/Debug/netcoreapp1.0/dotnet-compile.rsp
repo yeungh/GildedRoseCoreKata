@@ -1,5 +1,5 @@
---temp-output:c:\Users\hyeung\Documents\GitHub\GildedRoseCore\src\GildedRoseCore.Console.Tests\obj\Debug\netcoreapp1.0\
---out:c:\Users\hyeung\Documents\GitHub\GildedRoseCore\src\GildedRoseCore.Console.Tests\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.Tests.dll
+--temp-output:c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console.Tests\obj\Debug\netcoreapp1.0\
+--out:c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console.Tests\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.Tests.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -108,5 +108,5 @@
 --reference:C:\Users\hyeung\.nuget\packages\xunit.extensibility.execution\2.1.0\lib\dotnet\xunit.execution.dotnet.dll
 --reference:C:\Users\hyeung\.nuget\packages\xunit.runner.reporters\2.1.0\lib\dotnet\xunit.runner.reporters.dotnet.dll
 --reference:C:\Users\hyeung\.nuget\packages\xunit.runner.utility\2.1.0\lib\dotnet\xunit.runner.utility.dotnet.dll
---reference:c:\Users\hyeung\Documents\GitHub\GildedRoseCore\src\GildedRoseCore.Console\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.dll
-c:\Users\hyeung\Documents\GitHub\GildedRoseCore\src\GildedRoseCore.Console.Tests\TestAssemblyTests.cs
+--reference:c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.dll
+c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console.Tests\TestAssemblyTests.cs

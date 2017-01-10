@@ -1,5 +1,5 @@
---temp-output:c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCore\src\GildedRoseCore.Console\obj\Debug\netcoreapp1.0\
---out:c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCore\src\GildedRoseCore.Console\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.dll
+--temp-output:c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console\obj\Debug\netcoreapp1.0\
+--out:c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console\bin\Debug\netcoreapp1.0\GildedRoseCore.Console.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -87,4 +87,4 @@
 --reference:C:\Users\hyeung\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\hyeung\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\hyeung\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
-c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCore\src\GildedRoseCore.Console\Program.cs
+c:\Users\hyeung\Documents\Visual Studio 2015\Projects\Kata\GildedRoseCoreKata\src\GildedRoseCore.Console\Program.cs
