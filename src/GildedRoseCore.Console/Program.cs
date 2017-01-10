@@ -55,14 +55,17 @@ namespace ConsoleApplication
         {
             foreach(var item in Items)
             {
-                DegradeQualityItems(item);
+                UpdateQualityOfItems(item);
 
-                if (item.Name != "Sulfuras, Hand of Ragnaros")
-                {
-                    item.SellIn = item.SellIn - 1;
-                }
+                ReduceSellInDays(item);
 
-                if (item.SellIn < 0)
+                CheckSellInDateHasPassed(item);
+            }
+        }
+
+        public void CheckSellInDateHasPassed(Item item)
+        {
+            if (item.SellIn < 0)
                 {
                     if (item.Name != "Aged Brie")
                     {
@@ -86,27 +89,34 @@ namespace ConsoleApplication
                         }
                     }
                 }
-            }
         }
 
-        private void DegradeQualityItems(Item item)
+        public void ReduceSellInDays(Item item)
+        {
+            if (item.Name != "Sulfuras, Hand of Ragnaros")
+                {
+                    item.SellIn = item.SellIn - 1;
+                }
+        }
+
+        public void UpdateQualityOfItems(Item item)
         {
             if (item.Name != "Aged Brie" && item.Name != "Backstage passes to a TAFKAL80ETC concert")
+            {
+                if (item.Quality > 0)
                 {
-                    if (item.Quality > 0)
-                    {
-                        DegradeQualityOfAllItemsByOne(item);
-                    }
+                    DegradeQualityOfAllItemsByOne(item);
                 }
-                else
+            }
+            else
+            {
+                if (item.Quality < 50)
                 {
-                    if (item.Quality < 50)
-                    {
-                        item.Quality = item.Quality + 1;
+                    item.Quality = item.Quality + 1;
 
-                        HandleBackstagePasses(item);
-                    }
+                    HandleBackstagePasses(item);
                 }
+            }
         }
 
         public void DegradeQualityOfAllItemsByOne(Item item)
